@@ -184,7 +184,7 @@ section.main aside div.content {
 
 /* projects */
 section.projects {
-    height: 650px;
+    height: 760px;
 }
 section.projects h2 {
     margin-left: 30%;
@@ -203,6 +203,10 @@ section.projects aside div.content {
     padding: 5px 0px 10px 85px;
     background-size: 50px 50px;
     background-position: 20px 5px;
+}
+
+section.projects aside div.content {
+    width: 70%;
 }
 section.projects aside div.content a.btn{
 background-color: grey;
@@ -340,19 +344,21 @@ footer div.icons a{
 
 /* projects */
 
-section.projects h2 {
-    margin-left: 20%;
-
-}
 section.projects {
-    height: 450px;
+    height: 800px;
 }
+section.projects h2 {
+    margin-left: 30%;
+    color: #000;
 
+}
 
 section.projects aside { 
     width: 100%;
     float: none;
     text-align: left;
+    margin: 40px;
+
 }
 
 section.projects aside div.content {
@@ -362,6 +368,14 @@ section.projects aside div.content {
     background-position: 20px 5px;
 }
 
+
+section.projects aside div.content {
+    width: 70%;
+}
+section.projects aside div.content a.btn{
+background-color: grey;
+color: #fff;
+}
 
 
 
