@@ -24,6 +24,12 @@
 
 
 
+
+
+
+
+ 
+
  /* Text */
  h1{
      margin: 0 0 1em 0;
@@ -71,6 +77,18 @@ a.btn:hover {
 } 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* header */
 
 header {
@@ -78,19 +96,6 @@ header {
     position: relative; 
     background:#eee9d9;
 }
-/* header a.logo {
-    z-index: 1;
-    position: absolute;
-    display: block; 
-    width: 160px;
-    height: 66px;
-    background-size: contain;
-   top: 15px;
-   left: 20px;
-} */
-/* header a.logo span {
-    display: none;
-} */
 
 header div.hero {
     position: absolute;
@@ -124,6 +129,12 @@ header div.hero a {
 }
 
 
+
+
+
+
+
+
 /* Section-All */
 /* section{
     padding: 0 30px;
@@ -133,6 +144,18 @@ section::after {
     display: block;
     clear: both;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Section- Main */
 section.main {
@@ -173,6 +196,17 @@ section.main aside .content.tools {
 section.main aside .content.tools a {
     color: #000;
 }
+
+
+
+
+
+
+
+
+
+
+
 /* Section demo */
 
 section.demo {
@@ -199,6 +233,16 @@ section.demo article video {
     width: 700px ;
      height: 300px;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* Projects */
 
@@ -440,44 +484,6 @@ li.logo {
 
 
 
-/* top-level nav */
-
-/* this only targets the emisiate child with ul */
-/* nav > ul {
-    padding-left: 200px;
-}
-nav > ul > li {
-    float: left;
-}
-nav > ul > li > a {
-    width: auto;
-    padding: 10px 20px 15px 20px;
-}
-
-nav a[aria-haspopup='true']::after{
-    content: '';
-    display: block;
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 16px;
-    right: 15px;
-    border-top: 4px solid transparent;
-    border-bottom: 4px solid transparent;
-    border-left: 4px solid #fff;
-} 
-
-nav > ul > li > a[aria-haspopup='true']::after{
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-    border-top: 4px solid #fff;
-    left: 20px; 
-    right: auto;
-    bottom: 6px;
-    top: auto;
-} */
-
-
 
 
 
@@ -534,410 +540,3 @@ footer .icons{
 
 
 
-
-
-/* Media Queries */
-
-
-
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-       
-
-}
-
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    h1{
-        font-size: 2.5em;
-    }
-    header div.hero {
-        width: 75%;
-        top: 130px;
-        left: 13%;
-    }
-    header div.hero h1{
-        line-height: 2.8rem;
-    }
-    section.demo article {
-        /* margin-right: 300px ; */
-        padding: 0 10% ;
-        height: 90vh;
-        
-    }
-    header div.hero img {
-        /* margin-right: 50%;
-        margin-left: 37%; */
-        /* margin-bottom: 100px; */
-        height: 11rem; 
-        /* width: 14rem; */
-        /* border-radius: 0 0 40% 40% ; */
-        /* margin-bottom: 100px; */
-        /* border: 1px solid;
-        padding: 10px; */
-        /* box-shadow: 10px 20px #888888; */
-    }
-    
-    
-}
-
-
-
-
-
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { 
-
-
-    h1{
-        font-size: 2.3em;
-    }
-
-
-/* header */
-
-    header div.hero {
-        width: 75%;
-        top: 130px;
-        left: 13%;
-    }
-    header div.hero h1{
-        line-height: 2.8rem;
-    }
-
-    header div.hero img {
-        /* margin-right: 50%;
-        margin-left: 37%; */
-        /* margin-bottom: 100px; */
-        height: 11rem; 
-        /* width: 14rem; */
-        /* border-radius: 0 0 40% 40% ; */
-        /* margin-bottom: 100px; */
-        /* border: 1px solid;
-        padding: 10px; */
-        /* box-shadow: 10px 20px #888888; */
-    }
-/* main */
-section.main {
-    margin-top: 10%;
-    margin-bottom: 10px;
-}
-
-section.main aside div.content{
-   background-size: 55px 55px;
-   padding-top: 60px;
-}
-
-
-
-    /* Demo  */
-    section.demo article {
-        /* margin-right: 300px ; */
-        padding: 0 10% ;
-        /* height: 90vh; */
-        
-    }
-
-
-    section.demo article video {
-        width: 400px ;
-         height: 300px;
-    }
-}
-
-
-
-
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
-
-
-    h1{
-        font-size: 2em;
-    }
-
-
-/* header */
-
-    header div.hero {
-        width: 75%;
-        top: 130px;
-        left: 13%;
-    }
-    header div.hero h1{
-        line-height: 2.5rem;
-    }
-
-    header div.hero img {
-        /* margin-right: 50%;
-        margin-left: 37%; */
-        /* margin-bottom: 100px; */
-        height: 9rem; 
-        /* width: 14rem; */
-        /* border-radius: 0 0 40% 40% ; */
-        /* margin-bottom: 100px; */
-        /* border: 1px solid;
-        padding: 10px; */
-        /* box-shadow: 10px 20px #888888; */
-    }
-
-    /* Demo  */
-    section.demo article {
-        /* margin-right: 300px ; */
-        padding: 0 10% ;
-        /* height: 90vh; */
-        
-    }
-
-
-    section.demo article video {
-        width: 400px ;
-         height: 300px;
-    }
-
-/* main  */
-
-section.main aside { 
-    width: 100%;
-  float: none;
-  text-align: left;
-}
-
-section.main aside div.content {
-    margin: 8px 20px 8px 0;
-    padding: 5px 0px 10px 85px;
-    background-size: 50px 50px;
-    background-position: 20px 5px;
-}
- 
-
-/* Skills */
-
-section.skills {
-    height: 1140px;
-    background-color: #fff;
-}
-
-section.skills h2 {
-    margin-left: 37%;
-  
-}
-
-
-section.skills aside {
-    width: 100%;
-    float: none;
-    margin: 0;
-    position: relative;
-    margin-top: 10px;
-
-}
-
-section.skills aside div.content {
-    /* padding: 20px 20px 20px 150px; */
-}
-
-section.skills aside div.content p {
-    font-size: .9em;
-}
-
-/* section.skills aside div.content img {
-    display: inline-block;
-    width: 125px;
-    position: absolute;
-    top: 30px;
-    left: 0px;
-} */
-
-section.skills blockquote {
-    margin: 50px 20px 0 40px;
-    width: 90%;
-    padding: 1px 0px 20px 0px;
-    position: relative;
-    height: 10%;
-    border-top: #000 1px solid;
-}
-
-section.skills blockquote p.credit {
-    margin-bottom: 0 ;
-}
-
-/* footer */
-footer {
- left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color:#eee9d9;
-}
-footer div.icons {
-    /* display: block; */
-    margin-top: 15px;
-}
-
-footer div.icons a{
-    margin: 0 20px 0 0; 
-}
-
- }
-
-
-
-
- /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-
-    h1{
-        font-size: 1.3em;
-    }
-
-
-/* header */
-
-    header div.hero {
-        width: 75%;
-        top: 130px;
-        left: 13%;
-    }
-    header div.hero h1{
-        line-height: 2.2rem;
-    }
-
-    header div.hero img {
-    
-        height: 9rem; 
-      
-    }
-
-    
-    /* main  */
-    
-    section.main {
-        height: 450px;
-    }
-
-
-    section.main aside { 
-        width: 100%;
-        float: none;
-        text-align: left;
-    }
-    
-    section.main aside div.content {
-        margin: 8px 20px 8px 0;
-        padding: 5px 0px 10px 85px;
-        background-size: 50px 50px;
-        background-position: 20px 5px;
-    }
-    
-    
-    /* Demo  */
-    section.demo article {
-        /* margin-right: 300px ; */
-        padding: 0 9% ;
-        /* height: 90vh; */
-        
-    }
-
-
-    section.demo article video {
-        width: 310px ;
-         height: 250px;
-         
-    }
-
-    /* Skills */
-    
-    section.skills {
-    height: 1140px;
-    background-color: #fff;
-}
-
-section.skills h2 {
-    margin-left: 24%;
-  
-}
-
-
-section.skills aside {
-    width: 100%;
-    float: none;
-    margin: 0;
-    position: relative;
-    margin-top: 10px;
-
-}
-
-section.skills aside div.content {
-    /* padding: 20px 20px 20px 150px; */
-}
-
-section.skills aside div.content p {
-    font-size: .9em;
-}
-
-/* section.skills aside div.content img {
-    display: inline-block;
-    width: 125px;
-    position: absolute;
-    top: 30px;
-    left: 0px;
-} */
-
-section.skills blockquote {
-    margin: 50px 20px 0 40px;
-    width: 90%;
-    padding: 1px 0px 20px 0px;
-    position: relative;
-    height: 10%;
-    border-top: #000 1px solid;
-}
-
-section.skills blockquote p.credit {
-    margin-bottom: 0 ;
-}
-
-/* footer */
-footer {
- left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color:#eee9d9;
-}
-footer div.icons {
-    /* display: block; */
-    margin-top: 15px;
-}
-
-footer div.icons a{
-    margin: 0 20px 0 0; 
-}
-
-
-/* nav */
-
-nav {
-    position: static;
-    /* left: 0; */
-    /* bottom: 0; */
-    width: auto;
-    padding: 10px 58px;
-    background-color: #4b0a0c;
-    /* width: 100%; */
-}
-
-nav > ul > li.logo {
-
-    display: none;
-}
-
-nav ul li.contact {
-    display: none;
-
-}
-
-
-}
