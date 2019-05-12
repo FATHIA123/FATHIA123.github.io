@@ -370,7 +370,7 @@ section.projects aside div.content {
 
 
 section.projects aside div.content {
-    width: 70%;
+    width: 60%;
 }
 section.projects aside div.content a.btn{
 background-color: grey;
@@ -414,20 +414,14 @@ section.skills aside div.content p {
     font-size: .9em;
 }
 
-/* section.skills aside div.content img {
-    display: inline-block;
-    width: 125px;
-    position: absolute;
-    top: 30px;
-    left: 0px;
-} */
+
 
 section.skills blockquote {
     margin: 50px 20px 0 40px;
     width: 90%;
     padding: 1px 0px 20px 0px;
     position: relative;
-    height: 10%;
+    height: 20%;
     border-top: #000 1px solid;
 }
 
