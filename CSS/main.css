@@ -1,0 +1,943 @@
+/* CSS Document for Screens */
+
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i'); */
+
+
+ body {
+    font-size: 16px;
+    font-weight: 300;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    /* font-family: 'Righteous', cursive; */
+
+ }
+ 
+ #page {
+     max-width: 1500px;
+     /* top|bottom 0 right|left auto : setting the margin to auto centers the content */
+     margin: 0 auto;
+     position: relative;
+ }
+
+
+
+ /* Text */
+ h1{
+     margin: 0 0 1em 0;
+     font-size: 2.8em;
+     font-weight: 700;
+ }
+ h2{
+    margin: 0 0 .5em 0;
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+h3{
+    margin: 0 0 .5em 0;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+h4{
+    margin: 0 0 1.5em 0;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+p{
+    margin: 0 0 1em 0;
+}
+
+a {
+    color: white; 
+}
+a:visited{
+    color: white;
+}
+
+a.btn{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff; 
+    padding: 4px 15px;
+    transition: background-color .5s;
+}
+a.btn:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+} 
+
+
+/* header */
+
+header {
+    height: 750px;
+    position: relative; 
+    background:#eee9d9;
+}
+/* header a.logo {
+    z-index: 1;
+    position: absolute;
+    display: block; 
+    width: 160px;
+    height: 66px;
+    background-size: contain;
+   top: 15px;
+   left: 20px;
+} */
+/* header a.logo span {
+    display: none;
+} */
+
+header div.hero {
+    position: absolute;
+    width: 60%;
+    top: 130px;
+    left: 20%;
+}
+
+header div.hero h1{
+    line-height: 1em;
+    margin: 0 0 30px 0;
+    color: black;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+header div.hero img {
+  margin-right: 50%;
+  margin-left: 37%;
+  height: 12rem; 
+  /* width: 14rem; */
+/* border-radius: 0 0 40% 40% ; */
+/* margin-bottom: 100px; */
+border: 1px solid;
+padding: 10px;
+box-shadow: 10px 20px #888888;
+}
+
+header div.hero a {
+    color: #000;
+}
+
+
+/* Section-All */
+/* section{
+    padding: 0 30px;
+} */
+section::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* Section- Main */
+section.main {
+    margin-top: 10%;
+    margin-bottom: 30px;
+    padding: 0;
+    height: 400px;     
+}
+
+section.main aside {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+section.main .content {
+    margin: 15px;
+    background: no-repeat center top;
+    background-size: 75px 75px;
+    /* width and height is 75px */
+    padding-top: 85px;
+}
+section.main aside h3 a {
+    color: #000000;
+    text-decoration: none;
+}
+section.main aside h3 a:hover {
+    text-decoration: underline;
+}
+section.main aside .content.trending {
+    background-image: url(../IMG/icon_star.svg);
+}
+section.main aside .content.find-it {
+    background-image: url(../IMG/icon_marker.svg);
+}
+section.main aside .content.tools {
+    background-image: url(../IMG/icon_gear.svg);
+}
+section.main aside .content.tools a {
+    color: #000;
+}
+/* Section demo */
+
+section.demo {
+    background-color: #cc6633;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    height: 640px;
+}
+section.demo article {
+    margin: 30px;
+    margin-top: 100px;
+    padding: 0 20% ;
+    /* background-image: url(../IMG/30AppsP10Utube.mov) no-repeat 0 5px; */
+    /* min-height: 220px; */
+    text-align: center;
+}
+
+section.demo article h2 {
+    margin-top: 40px;
+}
+
+section.demo article video {
+    width: 700px ;
+     height: 300px;
+}
+
+/* Projects */
+
+
+section.projects {
+    padding-top: 70px;
+    margin-bottom: 30px;
+    height: 500px;     
+    background-color: #eee9d9;
+}
+
+section.projects h2 {
+    margin-left: 40%;
+    color: #cc6633;
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+    }
+
+section.projects aside {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+section.projects .content {
+    margin: 15px;
+    background: no-repeat center top;
+    background-size: 75px 75px;
+    /* width and height is 75px */
+    padding-top: 85px;
+}
+section.projects aside h3 a {
+    color: #000000;
+    text-decoration: none;
+}
+section.projects aside h3 a:hover {
+    text-decoration: underline;
+}
+section.projects aside .content.trending {
+    background-image: url(../IMG/App9ImgReact.png);
+}
+section.projects aside .content.find-it {
+    background-image: url(../IMG/App10YouTube.png);
+}
+section.projects aside .content.tools {
+    background-image: url(../IMG/Voicinator.png);
+}
+section.projects aside .content a {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section - Skills */
+
+section.skills {
+    position: relative;
+    height: 600px;
+    padding-left: 50px;
+    padding-top: 90px;
+
+}
+
+section.skills h2 {
+margin-left: 25%;
+color: #cc6633;
+font-size: 2.5rem;
+}
+section.skills aside{
+width: 30%;
+float: left;
+margin-right: 10px;
+}
+
+section.skills aside .content {
+    padding: 30px 30px 20px 0;
+    text-align: center;
+    
+}
+
+section.skills aside .content h4{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 1.3rem;
+    color: #cc6633;
+}
+section.skills aside .content p {
+    /* margin-bottom: .5em; */
+    line-height: 1.5rem;
+     /* list-style-type: none; */
+     /* font-size: 1.4rem; */
+
+}
+section.skills aside .content a{
+    margin-top: 30px;
+   display: inline-block;
+   color: #cc6633;
+   font-weight: 700;
+   border: solid #cc6633;
+   text-decoration: none;
+   font-size: 1rem;
+}
+section.skills blockquote {
+    margin: 0;
+    padding-top: 50px;
+    width: 32%;
+    color: #444;
+    background-color: #eee9d9;
+    position: absolute;
+    bottom: 0;
+    right: 4%;
+    height: 50%;
+}
+section.skills blockquote p {
+    margin: 30px 30px 20px 50px;
+}
+section.skills blockquote p.quote {
+font-style: italic;
+font-size: 1.2em;
+}
+section.skills blockquote p.credit {
+    color: #777;
+    font-size: .9em;
+    margin-top: 0;
+    padding-left: 20px;
+    line-height: 1.3em;
+    position: relative;
+}
+section.skills blockquote::before {
+    content: '\201c';
+    color: #d2bd65;
+    position: absolute;
+    top: 40px;
+    left: 8px;
+    font-size: 5em;
+    font-family: serif;
+}
+section.skills blockquote p.quote::after{
+    content: '\201d';
+    font-family: serif;
+}
+section.skills blockquote p.credit::before {
+    content: '\2014';
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation */
+
+
+
+
+nav {
+    /* background: black; */
+    background: #4b0a0c;
+    top: 0;
+    width: 100%;
+    transition: all 0.5s;
+    position: relative;
+    z-index: 1;
+  }
+
+
+.fixed-nav nav {
+    position: fixed;
+    box-shadow: 0 5px rgba(0, 0, 0, 1);
+}
+
+  nav ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* the logo has a max-width of zero.
+  and an overflow of hidden
+  So the logo is there but its not being shown because it has a width of zero */
+li.logo {
+    max-width: 0;
+    overflow: hidden;
+    background: white;
+    transition: all 3s;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  
+
+.fixed-nav li.logo {
+      max-width: 500px;
+  }
+  li.logo a {
+    color: black;
+  }
+
+  nav a {
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    transition: all 0.2s;
+    text-transform: uppercase;
+  }
+
+
+
+/* top-level nav */
+
+/* this only targets the emisiate child with ul */
+/* nav > ul {
+    padding-left: 200px;
+}
+nav > ul > li {
+    float: left;
+}
+nav > ul > li > a {
+    width: auto;
+    padding: 10px 20px 15px 20px;
+}
+
+nav a[aria-haspopup='true']::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #fff;
+} 
+
+nav > ul > li > a[aria-haspopup='true']::after{
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #fff;
+    left: 20px; 
+    right: auto;
+    bottom: 6px;
+    top: auto;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    font-size: .8em;
+    padding: 3px;
+    color: #999;
+    background-color:#fff;
+    border-top: 7px solid #000;
+}
+footer .content {
+    display: inline; 
+}
+
+footer a {
+    margin-left: 30px;
+    color: #000;  
+    text-decoration: none;
+    text-align: center;
+}
+
+footer a:visited {
+    margin-left: 30px;
+    color: #000;  
+}
+footer a:hover {
+    margin-left: 30px;
+    color: #777;  
+}
+footer .icons{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-bottom: 200px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+       
+
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1{
+        font-size: 2.5em;
+    }
+    header div.hero {
+        width: 75%;
+        top: 130px;
+        left: 13%;
+    }
+    header div.hero h1{
+        line-height: 2.8rem;
+    }
+    section.demo article {
+        /* margin-right: 300px ; */
+        padding: 0 10% ;
+        height: 90vh;
+        
+    }
+    header div.hero img {
+        /* margin-right: 50%;
+        margin-left: 37%; */
+        /* margin-bottom: 100px; */
+        height: 11rem; 
+        /* width: 14rem; */
+        /* border-radius: 0 0 40% 40% ; */
+        /* margin-bottom: 100px; */
+        /* border: 1px solid;
+        padding: 10px; */
+        /* box-shadow: 10px 20px #888888; */
+    }
+    
+    
+}
+
+
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+    h1{
+        font-size: 2.3em;
+    }
+
+
+/* header */
+
+    header div.hero {
+        width: 75%;
+        top: 130px;
+        left: 13%;
+    }
+    header div.hero h1{
+        line-height: 2.8rem;
+    }
+
+    header div.hero img {
+        /* margin-right: 50%;
+        margin-left: 37%; */
+        /* margin-bottom: 100px; */
+        height: 11rem; 
+        /* width: 14rem; */
+        /* border-radius: 0 0 40% 40% ; */
+        /* margin-bottom: 100px; */
+        /* border: 1px solid;
+        padding: 10px; */
+        /* box-shadow: 10px 20px #888888; */
+    }
+/* main */
+section.main {
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+
+section.main aside div.content{
+   background-size: 55px 55px;
+   padding-top: 60px;
+}
+
+
+
+    /* Demo  */
+    section.demo article {
+        /* margin-right: 300px ; */
+        padding: 0 10% ;
+        /* height: 90vh; */
+        
+    }
+
+
+    section.demo article video {
+        width: 400px ;
+         height: 300px;
+    }
+}
+
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+    h1{
+        font-size: 2em;
+    }
+
+
+/* header */
+
+    header div.hero {
+        width: 75%;
+        top: 130px;
+        left: 13%;
+    }
+    header div.hero h1{
+        line-height: 2.5rem;
+    }
+
+    header div.hero img {
+        /* margin-right: 50%;
+        margin-left: 37%; */
+        /* margin-bottom: 100px; */
+        height: 9rem; 
+        /* width: 14rem; */
+        /* border-radius: 0 0 40% 40% ; */
+        /* margin-bottom: 100px; */
+        /* border: 1px solid;
+        padding: 10px; */
+        /* box-shadow: 10px 20px #888888; */
+    }
+
+    /* Demo  */
+    section.demo article {
+        /* margin-right: 300px ; */
+        padding: 0 10% ;
+        /* height: 90vh; */
+        
+    }
+
+
+    section.demo article video {
+        width: 400px ;
+         height: 300px;
+    }
+
+/* main  */
+
+section.main aside { 
+    width: 100%;
+  float: none;
+  text-align: left;
+}
+
+section.main aside div.content {
+    margin: 8px 20px 8px 0;
+    padding: 5px 0px 10px 85px;
+    background-size: 50px 50px;
+    background-position: 20px 5px;
+}
+ 
+
+/* Skills */
+
+section.skills {
+    height: 1140px;
+    background-color: #fff;
+}
+
+section.skills h2 {
+    margin-left: 37%;
+  
+}
+
+
+section.skills aside {
+    width: 100%;
+    float: none;
+    margin: 0;
+    position: relative;
+    margin-top: 10px;
+
+}
+
+section.skills aside div.content {
+    /* padding: 20px 20px 20px 150px; */
+}
+
+section.skills aside div.content p {
+    font-size: .9em;
+}
+
+/* section.skills aside div.content img {
+    display: inline-block;
+    width: 125px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+} */
+
+section.skills blockquote {
+    margin: 50px 20px 0 40px;
+    width: 90%;
+    padding: 1px 0px 20px 0px;
+    position: relative;
+    height: 10%;
+    border-top: #000 1px solid;
+}
+
+section.skills blockquote p.credit {
+    margin-bottom: 0 ;
+}
+
+/* footer */
+footer {
+ left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#eee9d9;
+}
+footer div.icons {
+    /* display: block; */
+    margin-top: 15px;
+}
+
+footer div.icons a{
+    margin: 0 20px 0 0; 
+}
+
+ }
+
+
+
+
+ /* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    h1{
+        font-size: 1.3em;
+    }
+
+
+/* header */
+
+    header div.hero {
+        width: 75%;
+        top: 130px;
+        left: 13%;
+    }
+    header div.hero h1{
+        line-height: 2.2rem;
+    }
+
+    header div.hero img {
+    
+        height: 9rem; 
+      
+    }
+
+    
+    /* main  */
+    
+    section.main {
+        height: 450px;
+    }
+
+
+    section.main aside { 
+        width: 100%;
+        float: none;
+        text-align: left;
+    }
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+    }
+    
+    
+    /* Demo  */
+    section.demo article {
+        /* margin-right: 300px ; */
+        padding: 0 9% ;
+        /* height: 90vh; */
+        
+    }
+
+
+    section.demo article video {
+        width: 310px ;
+         height: 250px;
+         
+    }
+
+    /* Skills */
+    
+    section.skills {
+    height: 1140px;
+    background-color: #fff;
+}
+
+section.skills h2 {
+    margin-left: 24%;
+  
+}
+
+
+section.skills aside {
+    width: 100%;
+    float: none;
+    margin: 0;
+    position: relative;
+    margin-top: 10px;
+
+}
+
+section.skills aside div.content {
+    /* padding: 20px 20px 20px 150px; */
+}
+
+section.skills aside div.content p {
+    font-size: .9em;
+}
+
+/* section.skills aside div.content img {
+    display: inline-block;
+    width: 125px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+} */
+
+section.skills blockquote {
+    margin: 50px 20px 0 40px;
+    width: 90%;
+    padding: 1px 0px 20px 0px;
+    position: relative;
+    height: 10%;
+    border-top: #000 1px solid;
+}
+
+section.skills blockquote p.credit {
+    margin-bottom: 0 ;
+}
+
+/* footer */
+footer {
+ left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#eee9d9;
+}
+footer div.icons {
+    /* display: block; */
+    margin-top: 15px;
+}
+
+footer div.icons a{
+    margin: 0 20px 0 0; 
+}
+
+
+/* nav */
+
+nav {
+    position: static;
+    /* left: 0; */
+    /* bottom: 0; */
+    width: auto;
+    padding: 10px 58px;
+    background-color: #4b0a0c;
+    /* width: 100%; */
+}
+
+nav > ul > li.logo {
+
+    display: none;
+}
+
+nav ul li.contact {
+    display: none;
+
+}
+
+
+}
