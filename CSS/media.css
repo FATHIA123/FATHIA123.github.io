@@ -183,22 +183,30 @@ section.main aside div.content {
 
 
 /* projects */
+section.projects {
+    height: 650px;
+}
+section.projects h2 {
+    margin-left: 30%;
+    color: #000;
 
+}
 section.projects aside { 
     width: 100%;
   float: none;
   text-align: left;
+  margin: 40px;
 }
 
 section.projects aside div.content {
-    margin: 8px 20px 8px 0;
+    margin: 2px 20px 10px 0;
     padding: 5px 0px 10px 85px;
     background-size: 50px 50px;
     background-position: 20px 5px;
 }
-section.projects h2 {
-    margin-left: 30%;
-
+section.projects aside div.content a.btn{
+background-color: grey;
+color: #fff;
 }
 
 
@@ -239,7 +247,7 @@ section.skills blockquote {
     width: 90%;
     padding: 1px 0px 20px 0px;
     position: relative;
-    height: 10%;
+    height: 20%;
     border-top: #000 1px solid;
 }
 
