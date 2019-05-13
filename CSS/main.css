@@ -210,11 +210,13 @@ section.main aside .content.tools a {
 /* Section demo */
 
 section.demo {
-    background-color: #cc6633;
+    /* background-color: #cc6633; */
+    background-color: #eee9d9;
     padding-top: 30px;
-    padding-bottom: 30px;
-    color: #fff;
-    height: 640px;
+    /* padding-bottom: 30px; */
+    /* color: #fff; */
+    color: #000;
+    height: 670px;
 }
 section.demo article {
     margin: 30px;
@@ -248,16 +250,18 @@ section.demo article video {
 
 
 section.projects {
-    padding-top: 70px;
-    margin-bottom: 30px;
-    height: 500px;     
-    background-color: #eee9d9;
+    padding-top: 90px;
+    /* margin-bottom: 30px; */
+    height: 450px;     
+    /* background-color: #eee9d9; */
+    /* border-bottom: .5px solid #000; */
+
 }
 
 section.projects h2 {
     margin-left: 40%;
     color: #cc6633;
-    font-size: 2.5rem;
+    font-size: 2.9rem;
     padding-bottom: 50px;
     }
 
@@ -316,9 +320,9 @@ section.skills {
 }
 
 section.skills h2 {
-margin-left: 25%;
+margin-left: 40%;
 color: #cc6633;
-font-size: 2.5rem;
+font-size: 2.9rem;
 }
 section.skills aside{
 width: 30%;
