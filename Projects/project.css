@@ -1,0 +1,81 @@
+
+h1 {
+    text-align: center;
+    height: 200px;
+  line-height: 200px;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 80px;
+  padding-top: 60px;
+  color: #4b0a0c;
+  /* margin-top: 0px; */
+  font-family: 'Abril Fatface', cursive;
+
+
+}
+
+h2{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    /* font-family: 'Gochi Hand', cursive; */
+    font-family: 'Cantata One', serif;
+    color: bisque;
+}
+
+h3 {
+    text-align: center;
+    /* font-family: 'Gochi Hand', cursive; */
+    /* font-family: 'Cantata One', serif; */
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 30px;
+}
+
+
+h4 {
+    padding-top: 10px;
+    text-align: center;
+    /* font-family: 'Cantata One', serif; */
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 20px;
+    /* color: #862d59; */
+    color: black;
+
+}
+
+h5{
+    text-align: center;
+    /* font-family: 'Gochi Hand', cursive; */
+    /* font-family: 'Gochi Hand', cursive; */
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 30px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 60em;
+}
+
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+
+
+#github{
+
+    color: black;
+}
+hr {
+    width: 75vw;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+}
