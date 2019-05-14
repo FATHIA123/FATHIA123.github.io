@@ -83,12 +83,6 @@ a.btn:hover {
 
 
 
-
-
-
-
-
-
 /* header */
 
 header {
@@ -159,8 +153,8 @@ section::after {
 
 /* Section- Main */
 section.main {
-    margin-top: 14%;
-    margin-bottom: 30px;
+    margin-top: 10%;
+    margin-bottom: 50px;
     padding: 0;
     height: 400px;     
 }
@@ -242,6 +236,7 @@ section.demo article h2 {
 }
 section.demo article p {
 line-height: 1.5em;
+font-size: 1.1rem;
 }
 
 section.demo article video {
