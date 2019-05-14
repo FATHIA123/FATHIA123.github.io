@@ -11,7 +11,7 @@
     padding: 0;
     width: 100%;
     overflow-x: hidden;
-    /* font-family: 'Righteous', cursive; */
+    font-family: "Times New Roman", serif;
 
  }
  
@@ -105,11 +105,11 @@ header div.hero {
 }
 
 header div.hero h1{
-    line-height: 1em;
+    line-height: 1.2em;
     margin: 0 0 30px 0;
     color: black;
     text-align: center;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: "Gaglin", fantasy;
 
 }
 header div.hero img {
@@ -159,7 +159,7 @@ section::after {
 
 /* Section- Main */
 section.main {
-    margin-top: 10%;
+    margin-top: 14%;
     margin-bottom: 30px;
     padding: 0;
     height: 400px;     
@@ -177,9 +177,17 @@ section.main .content {
     /* width and height is 75px */
     padding-top: 85px;
 }
+section.main aside h3 {
+font-family: "Gaglin", fantasy;
+}
+section.main aside{
+    line-height: 1.5em;
+}
 section.main aside h3 a {
     color: #000000;
     text-decoration: none;
+    font-family: "Gaglin", fantasy;
+
 }
 section.main aside h3 a:hover {
     text-decoration: underline;
@@ -229,6 +237,11 @@ section.demo article {
 
 section.demo article h2 {
     margin-top: 40px;
+    font-family: "Gaglin", fantasy;
+
+}
+section.demo article p {
+line-height: 1.5em;
 }
 
 section.demo article video {
@@ -252,17 +265,19 @@ section.demo article video {
 section.projects {
     padding-top: 90px;
     /* margin-bottom: 30px; */
-    height: 450px;     
+    height: 500px;     
     /* background-color: #eee9d9; */
     /* border-bottom: .5px solid #000; */
 
 }
 
 section.projects h2 {
-    margin-left: 40%;
+    margin-left: 35%;
     color: #cc6633;
     font-size: 2.9rem;
     padding-bottom: 50px;
+    font-family: "Gaglin", fantasy;
+
     }
 
 section.projects aside {
@@ -280,7 +295,13 @@ section.projects .content {
 section.projects aside h3 a {
     color: #000000;
     text-decoration: none;
+    font-family: "Gaglin", fantasy;
+
 }
+section.projects aside p {
+line-height: 1.5em;
+}
+
 section.projects aside h3 a:hover {
     text-decoration: underline;
 }
@@ -323,6 +344,8 @@ section.skills h2 {
 margin-left: 40%;
 color: #cc6633;
 font-size: 2.9rem;
+font-family: "Gaglin", fantasy;
+
 }
 section.skills aside{
 width: 30%;
@@ -341,10 +364,13 @@ section.skills aside .content h4{
     margin-top: 50px;
     font-size: 1.3rem;
     color: #cc6633;
+    font-family: "Gaglin", fantasy;
+
 }
 section.skills aside .content p {
     /* margin-bottom: .5em; */
-    line-height: 1.5rem;
+    line-height: 1.9em;
+    
      /* list-style-type: none; */
      /* font-size: 1.4rem; */
 
@@ -357,6 +383,8 @@ section.skills aside .content a{
    border: solid #cc6633;
    text-decoration: none;
    font-size: 1rem;
+   font-family: "Gaglin", fantasy;
+
 }
 section.skills blockquote {
     margin: 0;
@@ -368,6 +396,8 @@ section.skills blockquote {
     bottom: 0;
     right: 4%;
     height: 50%;
+    font-family: "Gaglin", fantasy;
+
 }
 section.skills blockquote p {
     margin: 30px 30px 20px 50px;
@@ -450,6 +480,8 @@ nav {
   }
   
   nav li {
+    font-family: "Gaglin", fantasy;
+
     flex: 1;
     text-align: center;
     display: flex;
@@ -506,6 +538,8 @@ footer {
     color: #999;
     background-color:#fff;
     border-top: 7px solid #000;
+    font-family: "Gaglin", fantasy;
+
 }
 footer .content {
     display: inline; 

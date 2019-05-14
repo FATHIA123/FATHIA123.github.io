@@ -45,6 +45,7 @@
     }
     section.projects {
             border-bottom: .5px solid #000;
+            height: 530px;
 
     }
     
@@ -86,6 +87,7 @@
 section.main {
     margin-top: 10%;
     margin-bottom: 10px;
+    padding-top: 20px;
 }
 
 section.main aside div.content{
@@ -112,9 +114,13 @@ section.main aside div.content{
 /* projects */
 
 section.projects {
-    /* margin-top: 10%; */
+    padding-bottom: 50px;
     margin-bottom: 10px;
     border-bottom: .5px solid #000;
+
+}
+section.projects h2 {
+    margin-left: 23%;
 
 }
 
@@ -171,7 +177,9 @@ section.projects aside div.content{
     }
 
 /* main  */
-
+section.main{
+    height: 480px;
+}
 section.main aside { 
     width: 100%;
   float: none;
@@ -189,13 +197,14 @@ section.main aside div.content {
 
 /* projects */
 section.projects {
-    height: 760px;
+    height: 900px;
     border-bottom: .5px solid #000;
 
 }
 section.projects h2 {
-    margin-left: 30%;
+    margin-left: 20%;
     color: #000;
+    padding-bottom: 20px;
 
 }
 section.projects aside { 
@@ -225,12 +234,12 @@ color: #fff;
 /* Skills */
 
 section.skills {
-    height: 1140px;
+    height: 1200px;
     background-color: #fff;
 }
 
 section.skills h2 {
-    margin-left: 37%;
+    margin-left: 32%;
   
 }
 
@@ -316,7 +325,7 @@ footer div.icons a{
     /* main  */
     
     section.main {
-        height: 450px;
+        height: 550px;
     }
 
 
@@ -352,12 +361,12 @@ footer div.icons a{
 /* projects */
 
 section.projects {
-    height: 880px;
+    height: 1200px;
     border-bottom: .5px solid #000;
 
 }
 section.projects h2 {
-    margin-left: 30%;
+    margin-left: 20%;
     color: #000;
 
 }
@@ -396,7 +405,7 @@ color: #fff;
     /* Skills */
     
     section.skills {
-    height: 1140px;
+    height: 1300px;
     background-color: #fff;
 }
 
