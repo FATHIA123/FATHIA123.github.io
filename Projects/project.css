@@ -2,7 +2,10 @@ body {
     background-color: #eee9d9;
 }
 
+div.work h1 {
+    font-family: "Gaglin", fantasy;
 
+}
 h1 {
     text-align: center;
     height: 200px;
