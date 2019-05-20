@@ -121,7 +121,7 @@ section.projects {
 
 }
 section.projects h2 {
-    margin-left: 23%;
+    margin-left: 20%;
 
 }
 
@@ -203,11 +203,14 @@ section.projects {
 
 }
 section.projects h2 {
-    margin-left: 20%;
+    margin-left: 11%;
     color: #000;
     padding-bottom: 20px;
 
 }
+section.projects h2 i{
+    color: #cc6633
+} 
 section.projects aside { 
     width: 100%;
   float: none;
@@ -326,7 +329,7 @@ footer div.icons a{
     /* main  */
     
     section.main {
-        height: 600px;
+        height: 750px;
     }
 
 
@@ -345,6 +348,9 @@ footer div.icons a{
     
     
     /* Demo  */
+    section.demo {
+        height: 740px;
+    }
     section.demo article {
         /* margin-right: 300px ; */
         padding: 0 9% ;

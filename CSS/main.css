@@ -94,7 +94,7 @@ header {
 header div.hero {
     position: absolute;
     width: 60%;
-    top: 130px;
+    top: 100px;
     left: 20%;
 }
 
@@ -104,8 +104,14 @@ header div.hero h1{
     color: black;
     text-align: center;
     font-family: "Gaglin", fantasy;
+    
 
 }
+header div.hero h1 i{
+    font-weight: 10;
+    font-size: 30px;
+}
+
 header div.hero img {
   margin-right: 50%;
   margin-left: 37%;
